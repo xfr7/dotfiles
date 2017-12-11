@@ -22,9 +22,6 @@ set autoindent    " align the new line indent with the previous line
 let g:jedi#completions_command = "<TAB>"
 autocmd FileType python setlocal completeopt-=preview
 
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <buffer> <F5> :w <cr>:exec '!python3' shellescape(@%, 1)<cr>
 
 
